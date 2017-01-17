@@ -3,6 +3,9 @@ import unittest
 from primeNumber import primeNumber_generator
 
 class test_primeNumber_generator(unittest.TestCase):
+    def setUp():
+        pass
+        
     #passing tests
     def test_primein_0_t0_positiveInt(self):
         pass

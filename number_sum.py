@@ -5,4 +5,8 @@
 '''
 def add_sum(n):
     if(type(n) != int): raise TypeError
-    pass
+
+    '''use the legendary formulae to calculate the answer
+       n(n + 1) / 2
+    '''
+    return ((n * (n + 1)) / 2)
