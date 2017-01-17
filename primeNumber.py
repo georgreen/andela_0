@@ -21,6 +21,3 @@ def primeNumber_generator(n):
         j = j + 1
 
     return results
-
-
-print(primeNumber_generator(1000))
